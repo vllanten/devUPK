@@ -1,0 +1,21 @@
+{
+    "name": "devupk",
+    "displayName": "devUPK",
+    "description": "Kit de productividad para desarrollo",
+    "version": "0.0.1",
+    "publisher": "vllanten",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
