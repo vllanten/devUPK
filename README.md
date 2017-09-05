@@ -1,4 +1,4 @@
-# devupk README
+# DevUPK README
 
 This is the README for your extension "devupk". After writing up a brief description, we recommend including the following sections.
 

@@ -1,6 +1,6 @@
 {
-    "name": "devupk",
-    "displayName": "devUPK",
+    "name": "DevUPK",
+    "displayName": "DevUPK",
     "description": "Kit de productividad para desarrollo",
     "version": "0.0.1",
     "publisher": "vllanten",
@@ -13,8 +13,8 @@
     "contributes": {
         "snippets": [
             {
-                "language": "",
-                "path": "./snippets/snippets.json"
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
             }
         ]
     }
