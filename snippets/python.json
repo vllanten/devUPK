@@ -1,5 +1,5 @@
 {
-    "sheBang": {
+    "shebang": {
         "prefix": "shebang",
         "body": [
             "#!/usr/bin/env python"

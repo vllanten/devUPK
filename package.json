@@ -11,10 +11,13 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "javascript",
                 "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python.json"
             }
         ]
     }
