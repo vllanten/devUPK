@@ -79,6 +79,8 @@ chromium --kiosk --incognito  --disable-session-crashed-bubble --disable-infobar
 chmod +x /home/$USER/startApp.sh
 
 mkdir -p /home/$USER/.config/autostart
+chown $USER.$USER /home/$USER/.config/autostart
+chmod 777 /home/$USER/.config/autostart
 
 echo -e "[Desktop Entry]
 Encoding=UTF-8
