@@ -1,4 +1,5 @@
 #!/bin/bash
+# Configura la base para un totem
 
 echo -e " -> Comenzando la instalación"
 read -p "Ingresa el usuario usuario: " USER
@@ -9,14 +10,14 @@ apt-get update
 apt-get install -qy sudo vim git openssh-client xfce4 curl openssh-server openvpn chromium apt-transport-https ca-certificates gnupg2  software-properties-common
 
 echo -e " -> Instalando docker"
-# # Instalacion de docker
+# Instalacion de docker
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" && apt-get update
 sudo apt-get install docker-ce -y
 
 echo -e " -> Instalando utilidades de video"
-# # Instalación de utilidades de video
+# Instalación de utilidades de video
 apt install -qy ffmpeg libavcodec-extra gstreamer1.0-fluendo-mp3 gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools
 
 echo -e " -> Removiendo xfce4-panel"
@@ -28,7 +29,7 @@ sudo apt-get -qy install unattended-upgrades
 sudo apt-get -qy purge unattended-upgrades
 
 echo -e " -> Instalando teamviewer"
-# teamviewer
+# TeamViewer
 wget http://download.teamviewer.com/download/version_12x/teamviewer_i386.deb
 dpkg --add-architecture i386 && apt-get update
 dpkg -i teamviewer_i386.deb && apt-get install -f
