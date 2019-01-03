@@ -55,7 +55,7 @@ echo -e "#
 [Seat:*]
 pam-service=lightdm
 pam-autologin-service=lightdm-autologin
-xserver-command=X -nocursor
+# xserver-command=X -nocursor
 greeter-session=ligthdm-greeter
 session-wrapper=/etc/X11/Xsession
 autologin-user=$USER
