@@ -33,7 +33,7 @@ echo -e " -> Instalando teamviewer"
 wget http://download.teamviewer.com/download/version_12x/teamviewer_i386.deb
 dpkg --add-architecture i386 && apt-get update
 dpkg -i --force-depends teamviewer_i386.deb
-apt-get install -f
+apt-get install -f -y
 
 echo -e " -> Configurando SSH_Server"
 # Ajustes del SSH server
